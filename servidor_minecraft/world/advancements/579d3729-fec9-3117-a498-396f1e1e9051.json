@@ -27,10 +27,13 @@
       "minecraft:deep_frozen_ocean": "2025-06-04 17:29:48 +0000",
       "minecraft:ocean": "2025-06-04 18:20:55 +0000",
       "minecraft:jungle": "2025-06-04 19:08:15 +0000",
+      "minecraft:cherry_grove": "2025-06-14 04:20:37 +0000",
+      "minecraft:sunflower_plains": "2025-06-14 04:20:48 +0000",
       "minecraft:birch_forest": "2025-06-04 18:11:56 +0000",
       "minecraft:bamboo_jungle": "2025-06-04 18:28:11 +0000",
       "minecraft:warm_ocean": "2025-06-05 19:19:20 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-06-04 18:23:54 +0000",
+      "minecraft:flower_forest": "2025-06-14 04:22:02 +0000",
       "minecraft:beach": "2025-06-03 20:47:24 +0000",
       "minecraft:dark_forest": "2025-06-04 19:58:13 +0000",
       "minecraft:sparse_jungle": "2025-06-04 18:27:30 +0000",
@@ -40,6 +43,7 @@
       "minecraft:snowy_plains": "2025-06-04 17:10:15 +0000",
       "minecraft:dripstone_caves": "2025-06-03 22:03:04 +0000",
       "minecraft:snowy_taiga": "2025-06-04 17:23:04 +0000",
+      "minecraft:frozen_peaks": "2025-06-14 04:19:05 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-04 18:10:42 +0000",
       "minecraft:deep_dark": "2025-06-03 22:35:28 +0000",
       "minecraft:grove": "2025-06-04 17:43:02 +0000",
@@ -604,11 +608,13 @@
       "minecraft:skeleton": "2025-06-03 21:47:18 +0000",
       "minecraft:phantom": "2025-06-05 21:55:35 +0000",
       "minecraft:witch": "2025-06-10 22:37:08 +0000",
+      "minecraft:ravager": "2025-06-14 04:35:00 +0000",
       "minecraft:husk": "2025-06-05 19:21:29 +0000",
       "minecraft:ghast": "2025-06-05 23:18:54 +0000",
       "minecraft:hoglin": "2025-06-07 20:52:20 +0000",
       "minecraft:cave_spider": "2025-06-03 22:11:46 +0000",
       "minecraft:piglin": "2025-06-05 22:56:13 +0000",
+      "minecraft:vindicator": "2025-06-14 04:33:53 +0000",
       "minecraft:stray": "2025-06-04 17:12:56 +0000",
       "minecraft:enderman": "2025-06-11 06:57:02 +0000",
       "minecraft:magma_cube": "2025-06-06 18:54:20 +0000",
@@ -618,7 +624,8 @@
       "minecraft:creeper": "2025-06-03 20:50:27 +0000",
       "minecraft:drowned": "2025-06-05 19:03:24 +0000",
       "minecraft:zombie_villager": "2025-06-04 18:11:08 +0000",
-      "minecraft:slime": "2025-06-04 19:52:39 +0000"
+      "minecraft:slime": "2025-06-04 19:52:39 +0000",
+      "minecraft:evoker": "2025-06-14 04:36:52 +0000"
     },
     "done": false
   },
@@ -9185,9 +9192,268 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-14 04:18:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2025-06-14 04:13:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwstairs:recipes/cherry": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/cherry_planks": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-14 04:18:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-14 04:18:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/cherry": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-06-14 04:25:41 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/cherry_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000",
+      "has_the_recipe": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/cherry_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-06-14 04:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-06-14 04:37:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-06-14 04:20:01 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_cherry_bridge": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "thaumon:recipes/misc/mutagen_from_amethyst_shard_stonecutting": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-14 04:18:15 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/cherry_rail_bridge": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2025-06-14 04:31:51 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_whispering_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-06-14 04:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-14 04:18:15 +0000"
     },
     "done": true
   },
