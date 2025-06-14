@@ -829,3 +829,7 @@ Caused by: java.io.IOException: Invalid tag id: 26
 [03:28:58] [Server thread/INFO]: SimonPro74 was shot by Skeleton
 [03:31:17] [Server thread/WARN]: UUID of added entity already exists: class_1430['Cow'/17163, l='ServerLevel[world]', x=768.01, y=78.00, z=-8841.28]
 [03:49:06] [Server thread/INFO]: SimonPro74 tried to swim in lava
+[03:50:52] [Server thread/INFO]: SimonPro74 burned to death
+[03:52:11] [Server thread/INFO]: SimonPro74 was burned to a crisp while fighting Ghast
+[03:52:44] [Server thread/INFO]: SimonPro74 tried to swim in lava
+[03:58:59] [Server thread/INFO]: SimonPro74 drowned
