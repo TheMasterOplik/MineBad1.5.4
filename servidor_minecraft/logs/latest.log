@@ -950,3 +950,10 @@ Caused by: java.io.IOException: Invalid tag id: 26
 [05:00:00] [Server thread/INFO]: SimonPro74[/100.90.218.55:54395] logged in with entity id 68991 at (735.6075234891919, 104.5, -8285.672626210084)
 [05:00:00] [Server thread/INFO]: Loading config from file...
 [05:00:00] [Server thread/INFO]: SimonPro74 joined the game
+[05:05:54] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
+[05:05:54] [Server thread/INFO]: SimonPro74 left the game
+[05:06:04] [Server thread/INFO]: SimonPro74[/100.90.218.55:54412] logged in with entity id 71285 at (731.3739913108716, 107.0, -8291.115509804964)
+[05:06:04] [Server thread/INFO]: Loading config from file...
+[05:06:04] [Server thread/INFO]: SimonPro74 joined the game
+[05:09:01] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
+[05:09:01] [Server thread/INFO]: SimonPro74 left the game
