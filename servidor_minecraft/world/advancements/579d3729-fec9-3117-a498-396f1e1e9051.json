@@ -14,6 +14,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-06-04 17:53:14 +0000",
+      "minecraft:snowy_slopes": "2025-06-14 04:15:28 +0000",
       "minecraft:old_growth_pine_taiga": "2025-06-04 17:46:16 +0000",
       "minecraft:forest": "2025-06-03 20:55:50 +0000",
       "minecraft:taiga": "2025-06-04 17:41:54 +0000",
@@ -9181,6 +9182,18 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2025-06-13 00:52:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-06-14 04:13:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-06-14 04:16:45 +0000"
     },
     "done": true
   },
