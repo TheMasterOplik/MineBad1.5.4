@@ -1,7 +1,10 @@
-[02:57:07] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
-[02:57:07] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.20.4-9.4.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[02:57:07] [ForkJoinPool-1-worker-3/WARN]: Mod totw_modded uses the version fabric-1.20.1-1.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[02:57:07] [main/INFO]: Loading 145 mods:
+[00:22:45] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
+[00:22:45] [ForkJoinPool-1-worker-2/WARN]: Mod mr_dungeons uses the version 1.8.4b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '4b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:22:45] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.20.4-9.4.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:22:46] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[00:22:46] [ForkJoinPool-1-worker-3/WARN]: Mod totw_modded uses the version fabric-1.20.1-1.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:22:46] [main/INFO]: Loading 192 mods:
 	- additionalstructures 4.2.2
 	- architectury 11.1.17
 	- artifacts 10.0.11
@@ -10,9 +13,14 @@
 	   |-- expandability 10.0.1
 	   \-- step-height-entity-attribute 1.2.0
 	- athena 3.3.2
+	- atistructuresv 1.0.0
+	- balm-fabric 9.0.9
 	- barteringstation 20.4.1
+	- bclib 3.30.1
+	   \-- wunderlib 1.30.0
 	- betterdeserttemples 1.20.4-Fabric-3.4.4
 	   \-- org_reflections_reflections 0.10.2
+	- betterend 4.30.1
 	- betterendisland 1.20.4-Fabric-2.4.3
 	   \-- org_reflections_reflections 0.10.2
 	- betterfortresses 1.20.4-Fabric-2.4.4
@@ -23,6 +31,10 @@
 	   \-- org_reflections_reflections 0.10.2
 	- betterstrongholds 1.20.4-Fabric-4.4.3
 	   \-- org_reflections_reflections 0.10.2
+	- bettertridents 20.4.0
+	   |-- cardinal-components-base 5.4.0
+	   \-- cardinal-components-entity 5.4.0
+	- bettervillage 3.3.1
 	- cardinal-components 5.4.0
 	   |-- cardinal-components-block 5.4.0
 	   |-- cardinal-components-chunk 5.4.0
@@ -31,6 +43,8 @@
 	   |-- cardinal-components-scoreboard 5.4.0
 	   \-- cardinal-components-world 5.4.0
 	- carryon 2.1.3
+	- charmofundying 7.1.2+1.20.4
+	   \-- spectrelib 0.15.2+1.20.4
 	- chipped 3.1.5
 	- cloth-config 13.0.138
 	   \-- cloth-basic-math 0.6.1
@@ -43,8 +57,20 @@
 	- connectedglass 1.1.13
 	- cristellib 1.2.4
 	   \-- blue_endless_jankson 1.2.3
+	- deeperdarker 1.3.3
+	   \-- customportalapi 0.0.1-beta65-1.20.4
+	- distanthorizons 2.3.2-b
+	   |-- fabric-key-binding-api-v1 1.0.40+78d798af4f
+	   |-- fabric-rendering-v1 3.0.12+78d798af4f
+	   \-- fabric-screen-api-v1 2.0.16+78d798af4f
 	- dramaticdoors 1.20.4-3.2.1
+	- duckling 4.0.0
+	- dungeons_arise 2.1.58
 	- dungeons_arise_seven_seas 1.0.2
+	- easyanvils 20.4.6
+	- easymagic 20.4.0
+	- easyshulkerboxes 20.4.6
+	   \-- iteminteractions 20.4.5
 	- endermanoverhaul 1.1.8
 	- explorify 1.6.2
 	- fabric-api 0.97.2+1.20.4
@@ -106,13 +132,24 @@
 	- forgeconfigapiport 20.4.3
 	   |-- com_electronwill_night-config_core 3.6.6
 	   \-- com_electronwill_night-config_toml 3.6.6
+	- formations 1.0.3
+	- formationsnether 1.0.5
+	- formationsoverworld 1.0.3
 	- fusion 1.2.7
 	- geckolib 4.4.4
 	   \-- com_eliotlash_mclib_mclib 20
+	- geophilic 3.4.1
+	- graveyard 3.0
 	- hangglider 20.4.2
+	- hearths 1.0.3
+	- hopobettermineshaft 1.2.2
+	- hopobetterruinedportal 1.4.0
+	- hopobetterunderwaterruins 1.1.5
+	- incendium 5.3.5
 	- inventorymanagement 1.5.0
 	- jade 13.3.1
 	- java 21
+	- libraryferret 4.0.0
 	- mcwbridges 3.1.0
 	- mcwdoors 1.1.2
 	- mcwfences 1.2.0
@@ -129,12 +166,27 @@
 	- metalbundles 20.4.4
 	   \-- iteminteractions 20.4.5
 	- minecraft 1.20.4
+	- mns 1.0.1-1.20-fabric
+	- moonlight 1.20.4-2.10.3
 	- mr_blossom_blade 1.2
+	- mr_dungeons 1.8.4b
 	- mr_dungeons_andtaverns 3.1.1
 	- mr_qraftyfied 7
+	- mr_qraftys_archeologydigsites 1
+	- mr_qraftys_bamboovillages 2
+	- mr_qraftys_bunkers 1
+	- mr_qraftys_endvillages 2
+	- mr_qraftys_halloweenvillages 2
+	- mr_qraftys_japanesevillages 2
+	- mr_qraftys_junglevillages 2
+	- mr_qraftys_mangrovevillages 1
+	- mr_qraftys_oilrigs 1
 	- mr_tidal_towns 1.3.4
+	- mr_true_ending 1-v1.1.0c
 	- mss 1.2.7-1.20-fabric
 	- mvs 4.1.2-1.20-fabric
+	- nullscape 1.2.7
+	- owo 0.12.6+1.20.3
 	- plushies 1.4.0
 	- puzzleslib 20.4.52
 	- quartzelv 2.2.7+1.20.4
@@ -142,6 +194,8 @@
 	- resourcefullib 2.4.10
 	   |-- com_teamresourceful_bytecodecs 1.0.2
 	   \-- com_teamresourceful_yabn 1.0.3
+	- sawmill 1.20.4-1.3.1
+	- simplemod 1.20.4
 	- skinrestorer 2.3.3+1.20.3-fabric
 	   \-- org_mineskin_java-client 3.0.1-SNAPSHOT
 	- spawnermod 1.2.5
@@ -164,6 +218,9 @@
 	- underground_rooms 1.0.0
 	- villagesandpillages 1.0.2
 	- wabi_sabi_structures 2.1.1
+	- watching 1.9.3
+	- waystones 16.0.5
+	- weaponmaster_ydm 4.2.3
 	- xaerominimap 25.2.6
 	- xaeroworldmap 1.39.9
 	- yungsapi 1.20.4-Fabric-4.4.3
@@ -171,112 +228,686 @@
 	   \-- org_reflections_reflections 0.10.2
 	- yungsextras 1.20.4-Fabric-4.4.2
 	   \-- org_reflections_reflections 0.10.2
-[02:57:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MineBad1.5.4/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:57:07] [main/INFO]: Compatibility level set to JAVA_16
-[02:57:07] [main/INFO]: Compatibility level set to JAVA_17
-[02:57:07] [main/WARN]: Reference map 'barteringstation.fabric.refmap.json' for barteringstation.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'fetzisasiandeco-common-common-refmap.json' for fetzisasiandeco.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'ForgeConfigAPIPort-Common-refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'hangglider.fabric.refmap.json' for hangglider.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'metalbundles.common.refmap.json' for metalbundles.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'metalbundles.fabric.refmap.json' for metalbundles.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'Stoneworks-Common-refmap.json' for stoneworks.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'Stoneworks-Fabric-refmap.json' for stoneworks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'thaumon-common-refmap.json' for thaumon-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:57:08] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
-[02:57:08] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found fantasy_armor.mixins.json:FARenderMixin from mod fantasy_armor
-[02:57:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[02:57:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[02:57:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[02:57:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[02:57:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[02:57:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[02:57:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[02:57:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[02:57:17] [main/ERROR]: No data fixer registered for artifacts:mimic
-[02:57:17] [main/INFO]: Constructing common components for barteringstation:main
-[02:57:17] [main/INFO]: Reflections took 58 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:17] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[02:57:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:57:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:57:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:57:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:19] [main/INFO]: Loading Collective version 7.64.
-[02:57:20] [main/INFO]: Hello Fabric world!
-[02:57:20] [main/ERROR]: No data fixer registered for badlands_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for cave_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for crimson_forest_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for dark_oak_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for desert_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for end_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for end_islands_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for flower_fields_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for ice_spikes_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for mushroom_fields_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for nether_wastes_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for coral_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for savanna_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for snowy_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for soulsand_valley_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for swamp_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for warped_forest_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for windswept_hills_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for pet_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for hammerhead_pet_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for axolotl_pet_enderman
-[02:57:20] [main/ERROR]: No data fixer registered for scarab
-[02:57:20] [main/ERROR]: No data fixer registered for spirit
-[02:57:20] [main/ERROR]: No data fixer registered for ender_bullet
-[02:57:20] [main/ERROR]: No data fixer registered for corrupted_pearl
-[02:57:20] [main/ERROR]: No data fixer registered for soul_pearl
-[02:57:20] [main/ERROR]: No data fixer registered for ancient_pearl
-[02:57:20] [main/ERROR]: No data fixer registered for bubble_pearl
-[02:57:20] [main/ERROR]: No data fixer registered for summoner_pearl
-[02:57:20] [main/ERROR]: No data fixer registered for icy_pearl
-[02:57:20] [main/ERROR]: No data fixer registered for crimson_pearl
-[02:57:20] [main/ERROR]: No data fixer registered for warped_pearl
-[02:57:20] [main/INFO]: ExpandAbility here, who dis?
-[02:57:20] [main/ERROR]: No data fixer registered for seat
-[02:57:20] [main/ERROR]: No data fixer registered for fixed_seat
-[02:57:20] [main/ERROR]: No data fixer registered for fetzisasiandeco:koi
-[02:57:23] [main/INFO]: Constructing common components for hangglider:main
-[02:57:23] [main/INFO]: Constructing common components for iteminteractions:main
-[02:57:24] [main/INFO]: Constructing common components for metalbundles:main
-[02:57:24] [main/INFO]: Constructing common components for puzzleslib:main
-[02:57:25] [main/INFO]: Reading config values from file.
-[02:57:25] [main/INFO]: Constructing common components for stoneworks:main
-[02:57:25] [main/INFO]: Loading common config for stoneworks
-[02:57:26] [main/INFO]: Hello Fabric world!
-[02:57:27] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[02:57:27] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[02:57:27] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[02:57:27] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[02:57:27] [main/INFO]: CHEESE FOR EVERYONE
-[02:57:27] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
-[02:57:27] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[02:57:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:57:27] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[02:57:27] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[02:57:27] [main/ERROR]: Pack for WWOO LOL is null
-[02:57:27] [main/ERROR]: Pack for WWOO LOL is null
-[02:57:27] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:57:27] [main/ERROR]: Pack for WWOO LOL is null
-[02:57:30] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:raft/nature/melon - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
-[02:57:30] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:island/nature/wheat - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
-[02:57:30] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:raft/nature/wheat - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
-[02:57:30] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:island/nature/melon - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_cherry_door_sawmill
+[00:22:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MineBad1.5.4/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:22:46] [main/INFO]: Compatibility level set to JAVA_16
+[00:22:46] [main/INFO]: Compatibility level set to JAVA_17
+[00:22:46] [main/WARN]: Reference map 'barteringstation.fabric.refmap.json' for barteringstation.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'BetterTridents-Fabric-refmap.json' for bettertridents.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'EasyMagic-Fabric-refmap.json' for easymagic.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'fetzisasiandeco-common-common-refmap.json' for fetzisasiandeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'ForgeConfigAPIPort-Common-refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'graveyard-fabric-mc1.20.4-fabric-refmap.json' for graveyard-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'hangglider.fabric.refmap.json' for hangglider.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'metalbundles.common.refmap.json' for metalbundles.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'metalbundles.fabric.refmap.json' for metalbundles.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'Stoneworks-Common-refmap.json' for stoneworks.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'Stoneworks-Fabric-refmap.json' for stoneworks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:46] [main/WARN]: Reference map 'thaumon-common-refmap.json' for thaumon-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:47] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:47] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:22:47] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[00:22:47] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found fantasy_armor.mixins.json:FARenderMixin from mod fantasy_armor
+[00:22:47] [main/WARN]: Error loading class: net/minecraft/class_8673 (java.lang.ClassNotFoundException: net/minecraft/class_8673)
+[00:22:47] [main/WARN]: @Mixin target net.minecraft.class_8673 was not found owo.mixins.json:ClientCommonNetworkHandlerAccessor from mod owo
+[00:22:47] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[00:22:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:22:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[00:22:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[00:22:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[00:22:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[00:22:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[00:22:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[00:22:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[00:22:56] [main/ERROR]: No data fixer registered for artifacts:mimic
+[00:22:56] [main/INFO]: Initializing AtistructuresvMod
+[00:22:56] [main/INFO]: Constructing common components for barteringstation:main
+[00:22:56] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[00:22:56] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[00:22:56] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[00:22:56] [main/INFO]: Reflections took 44 ms to scan 1 urls, producing 1 keys and 2 values
+[00:22:56] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[00:22:57] [main/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[00:22:57] [main/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[00:22:57] [main/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[00:22:57] [main/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[00:22:57] [main/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[00:22:57] [main/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[00:23:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[00:23:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[00:23:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:04] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[00:23:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[00:23:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:04] [main/INFO]: Constructing common components for bettertridents:main
+[00:23:04] [main/INFO]: Loading common config for bettertridents
+[00:23:04] [Thread-2/INFO]: Reloading common config for bettertridents
+[00:23:04] [Thread-2/INFO]: Reloading common config for bettertridents
+[00:23:04] [main/ERROR]: No data fixer registered for loyal_item
+[00:23:04] [main/ERROR]: No data fixer registered for loyal_experience_orb
+[00:23:05] [main/INFO]: Loading Collective version 7.64.
+[00:23:06] [main/ERROR]: No data fixer registered for crystallized_amber
+[00:23:06] [main/ERROR]: No data fixer registered for sculk_jaw
+[00:23:07] [main/INFO]: Hello Fabric world!
+[00:23:07] [main/INFO]: Constructing common components for easyanvils:main
+[00:23:07] [main/INFO]: Loading common config for easyanvils
+[00:23:07] [Thread-2/INFO]: Reloading common config for easyanvils
+[00:23:07] [Thread-2/INFO]: Reloading common config for easyanvils
+[00:23:07] [main/INFO]: Constructing common components for easymagic:main
+[00:23:07] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[00:23:07] [main/ERROR]: No data fixer registered for badlands_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for cave_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for crimson_forest_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for dark_oak_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for desert_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for end_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for end_islands_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for flower_fields_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for ice_spikes_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for mushroom_fields_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for nether_wastes_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for coral_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for savanna_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for snowy_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for soulsand_valley_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for swamp_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for warped_forest_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for windswept_hills_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for pet_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for hammerhead_pet_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for axolotl_pet_enderman
+[00:23:07] [main/ERROR]: No data fixer registered for scarab
+[00:23:07] [main/ERROR]: No data fixer registered for spirit
+[00:23:07] [main/ERROR]: No data fixer registered for ender_bullet
+[00:23:07] [main/ERROR]: No data fixer registered for corrupted_pearl
+[00:23:07] [main/ERROR]: No data fixer registered for soul_pearl
+[00:23:07] [main/ERROR]: No data fixer registered for ancient_pearl
+[00:23:07] [main/ERROR]: No data fixer registered for bubble_pearl
+[00:23:07] [main/ERROR]: No data fixer registered for summoner_pearl
+[00:23:07] [main/ERROR]: No data fixer registered for icy_pearl
+[00:23:07] [main/ERROR]: No data fixer registered for crimson_pearl
+[00:23:07] [main/ERROR]: No data fixer registered for warped_pearl
+[00:23:07] [main/INFO]: ExpandAbility here, who dis?
+[00:23:07] [main/ERROR]: No data fixer registered for seat
+[00:23:07] [main/ERROR]: No data fixer registered for fixed_seat
+[00:23:07] [main/ERROR]: No data fixer registered for fetzisasiandeco:koi
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:reaper
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:acolyte
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:corrupted_vindicator
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:corrupted_pillager
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:skeleton_creeper
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:falling_corpse
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:ghoul
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:revenant
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:wraith
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:nightmare
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:ghouling
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:lich
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:skull
+[00:23:11] [main/ERROR]: No data fixer registered for graveyard:nameless_hanged
+[00:23:11] [main/INFO]: Registered JSON trade offer adapter.
+[00:23:11] [main/INFO]: Constructing common components for hangglider:main
+[00:23:11] [main/INFO]: Constructing common components for iteminteractions:main
+[00:23:11] [main/INFO]: Initialize mod Library Ferret
+[00:23:11] [main/INFO]: Initialized mod Library Ferret
+[00:23:12] [main/INFO]: Constructing common components for metalbundles:main
+[00:23:12] [main/INFO]: forge?
+[00:23:13] [main/INFO]: Constructing common components for puzzleslib:main
+[00:23:13] [main/INFO]: Loaded config sawmill-common.json
+[00:23:13] [main/INFO]: Hello Fabric world!
+[00:23:13] [main/INFO]: Reading config values from file.
+[00:23:13] [main/INFO]: Constructing common components for stoneworks:main
+[00:23:13] [main/INFO]: Loading common config for stoneworks
+[00:23:13] [Thread-2/INFO]: Reloading common config for stoneworks
+[00:23:13] [Thread-2/INFO]: Reloading common config for stoneworks
+[00:23:14] [main/INFO]: Hello Fabric world!
+[00:23:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[00:23:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[00:23:14] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[00:23:14] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[00:23:14] [main/INFO]: CHEESE FOR EVERYONE
+[00:23:14] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[00:23:14] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values
+[00:23:14] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[00:23:14] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:14] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[00:23:14] [main/INFO]: Initializing Distant Horizons server.
+[00:23:15] [main/INFO]: Distant Horizons, Version: 2.3.2-b
+[00:23:15] [main/INFO]: Registering Fabric Server Events
+[00:23:15] [main/INFO]: Registered mod compatibility accessor for: [BCLib].
+[00:23:15] [main/INFO]: Distant Horizons server Initialized.
+[00:23:15] [main/INFO]: Initialized block sets in 37ms
+[00:23:15] [main/INFO]: Initialized color sets in 154ms
+[00:23:15] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[00:23:15] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[00:23:15] [main/ERROR]: Pack for WWOO LOL is null
+[00:23:15] [main/ERROR]: Pack for WWOO LOL is null
+[00:23:15] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:23:15] [main/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[00:23:15] [main/INFO]: [bclib] Running Pre Patchers on ./world/.
+[00:23:15] [main/WARN]: [bclib] Applying Fixes on Level
+[00:23:15] [main/INFO]: [bclib] Patcher Stage... Reading Data%
+[00:23:15] [main/INFO]: [bclib] Patcher Stage... Fixing Players%
+[00:23:15] [main/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/2443d009-a4b6-3027-9a02-688c0f537c7c.dat
+[00:23:15] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/579d3729-fec9-3117-a498-396f1e1e9051.dat
+[00:23:15] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/99b3e902-9022-309d-ae72-5bb19e275ecb.dat
+[00:23:15] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/6a962267-5929-36e2-b9b5-44f0df1a16a1.dat
+[00:23:15] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/235c102f-5246-4625-8856-47a977a9efe8-----.dat
+[00:23:15] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/235c102f-5246-4625-8856-47a977a9efe8-otro2.dat
+[00:23:15] [main/INFO]: [bclib] Patcher Stage... Applying Patches to level.dat%
+[00:23:15] [main/INFO]: [DataFixerAPI] Inspecting level.dat in ./world/.
+[00:23:15] [main/INFO]: [bclib] Patcher Stage... Patching Custom World-Data%
+[00:23:15] [main/INFO]: [bclib] Patcher Stage... Repairing all Regions%
+[00:23:15] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-16.mca
+[00:23:15] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-12.mca
+[00:23:15] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-19.mca
+[00:23:15] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-16.mca
+[00:23:15] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.-16.mca
+[00:23:15] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-18.mca
+[00:23:15] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.6.-15.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-13.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.2.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.8.-16.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.4.-17.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-19.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-18.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-13.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-4.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-9.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-8.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.10.-15.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-17.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.0.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-11.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-13.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.8.-14.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.5.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-12.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-3.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.6.-18.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.6.-15.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-3.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.1.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-17.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.6.-17.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-9.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.8.-15.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-13.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-10.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-18.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.2.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.4.15.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.8.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-2.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-18.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-20.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-10.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-19.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.9.-15.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-3.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-18.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.1.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-19.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-13.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-19.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-17.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-4.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.1.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-9.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-11.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.6.6.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-15.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-14.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-15.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-8.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.6.5.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.7.-16.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-17.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-20.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.-15.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.0.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-15.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-14.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-17.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-18.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.-19.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.4.16.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-7.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-19.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-13.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.8.-14.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.10.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.9.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-18.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.5.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 21%
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-14.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.-14.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.6.-18.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-19.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.3.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-14.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.3.15.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-7.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-2.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.3.16.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.1.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.6.-14.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-16.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-17.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.7.-13.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-17.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-17.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.6.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-17.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-11.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-13.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-12.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-3.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-3.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.6.-17.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.6.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-10.mca
+[00:23:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-16.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-18.mca
+[00:23:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-19.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-19.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-5.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.1.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-11.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-9.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-14.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.8.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-16.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-18.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.-19.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.4.-18.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.4.16.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-7.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-13.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-14.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.3.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.3.15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-2.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-16.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-13.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.6.-16.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-16.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-2.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-18.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.4.15.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-2.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-18.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-7.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.-17.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.-17.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-10.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.9.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.7.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-18.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.-19.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-4.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-17.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-3.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-12.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.1.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.4.-16.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.7.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-16.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-5.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-13.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-17.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.-18.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-8.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-1.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.7.-14.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-18.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.-18.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-4.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-17.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.6.6.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.9.-14.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-19.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-1.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.-17.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-16.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.0.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-12.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-18.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-15.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-4.-18.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-8.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.6.5.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.7.-16.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.7.-14.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.-15.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.17.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-14.mca
+[00:23:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.6.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-17.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.-18.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-19.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-13.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.9.-16.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-18.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 48%
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-15.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.5.-14.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-14.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-19.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-6.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-14.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.3.16.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.6.-14.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-1.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-16.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-6.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-4.-17.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.0.0.mca
+[00:23:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-2.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-2.-3.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-1.-3.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.1.-4.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-1.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.1.-16.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.0.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.1.-17.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.0.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-17.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.1.-18.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.0.-3.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.1.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-2.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.1.-3.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-1.-4.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-1.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.0.-4.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.0.0.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-2.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-1.-3.mca
+[00:23:18] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-17.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-1.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.0.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-10.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.1.-17.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-19.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.0.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.0.-3.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.1.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-2.-2.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.1.-3.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-19.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.-16.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-1.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.-4.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-18.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-14.mca
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 60%
+[00:23:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.-1.mca
+[00:23:18] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-20.mca
+[00:23:18] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-12.mca
+[00:23:18] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-16.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.1.-1.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.-4.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-15.mca
+[00:23:19] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-6.mca
+[00:23:19] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.1.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.0.mca
+[00:23:19] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-15.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.-18.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-2.-1.mca
+[00:23:19] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-16.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-2.-3.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.-3.mca
+[00:23:19] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 64%
+[00:23:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-13.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.1.-4.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.-2.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.9.-14.mca
+[00:23:20] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-18.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.-22.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-15.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-19.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.2.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.1.-16.mca
+[00:23:20] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.-1.mca
+[00:23:20] [main/INFO]: [bclib] Patching... 66%
+[00:23:20] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-17.mca
+[00:23:20] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-2.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.8.-16.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.1.-17.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.0.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.-2.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-1.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-19.mca
+[00:23:21] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-7.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-18.mca
+[00:23:21] [main/INFO]: [bclib] Patching... 69%
+[00:23:21] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.-17.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.1.-18.mca
+[00:23:21] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.-3.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-6.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-4.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-15.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-13.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-17.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.1.-2.mca
+[00:23:22] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-15.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.0.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-2.-2.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.1.-3.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-1.-4.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-1.-1.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.1.-1.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.0.-4.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.5.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-9.mca
+[00:23:22] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 73%
+[00:23:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-12.mca
+[00:23:23] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-12.mca
+[00:23:23] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-16.mca
+[00:23:23] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-5.mca
+[00:23:23] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-20.mca
+[00:23:23] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.-15.mca
+[00:23:23] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-8.mca
+[00:23:23] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-18.mca
+[00:23:23] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-18.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 75%
+[00:23:24] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-3.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-14.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.10.-15.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-16.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-17.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-9.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-17.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-17.mca
+[00:23:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-19.mca
+[00:23:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-4.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.0.mca
+[00:23:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-17.mca
+[00:23:24] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-19.mca
+[00:23:25] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 78%
+[00:23:25] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-11.mca
+[00:23:25] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-13.mca
+[00:23:25] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.8.-14.mca
+[00:23:25] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.10.-16.mca
+[00:23:25] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.9.-16.mca
+[00:23:25] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.17.mca
+[00:23:25] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-16.mca
+[00:23:25] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.5.mca
+[00:23:25] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-12.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-18.mca
+[00:23:26] [main/INFO]: [bclib] Patching... 80%
+[00:23:26] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-18.mca
+[00:23:26] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-8.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.4.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-9.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-18.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-11.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.-14.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-19.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-20.mca
+[00:23:26] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-14.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.8.-15.mca
+[00:23:27] [main/INFO]: [bclib] Patching... 83%
+[00:23:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.1.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-15.mca
+[00:23:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.0.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.1.mca
+[00:23:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-3.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-6.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.10.-14.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-17.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-5.mca
+[00:23:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.15.mca
+[00:23:28] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-22.mca
+[00:23:28] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
+[00:23:28] [main/INFO]: [bclib] Patching... 86%
+[00:23:28] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-3.mca
+[00:23:28] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-2.mca
+[00:23:28] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-14.mca
+[00:23:28] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.16.mca
+[00:23:28] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-17.mca
+[00:23:28] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-5.mca
+[00:23:28] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-18.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-14.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 87%
+[00:23:29] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-16.mca
+[00:23:29] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-12.mca
+[00:23:29] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-10.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-20.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-13.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-10.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-16.mca
+[00:23:29] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-18.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-20.mca
+[00:23:29] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.9.-15.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-17.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 90%
+[00:23:30] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-3.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-12.mca
+[00:23:30] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-19.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.1.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.5.6.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-17.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-20.mca
+[00:23:30] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-16.mca
+[00:23:30] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-19.mca
+[00:23:31] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.1.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-2.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-13.mca
+[00:23:31] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-11.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 93%
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-6.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.9.-13.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-17.mca
+[00:23:31] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-14.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.6.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-8.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-22.mca
+[00:23:31] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-15.mca
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-15.mca
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.-13.mca
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-16.mca
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-18.mca
+[00:23:32] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-2.mca
+[00:23:32] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-15.mca
+[00:23:32] [main/INFO]: [bclib] Patching... 97%
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.5.-19.mca
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.8.-13.mca
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.16.mca
+[00:23:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-7.mca
+[00:23:33] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-13.mca
+[00:23:33] [main/INFO]: [bclib] Patching... 98%
+[00:23:33] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.6.4.mca
+[00:23:33] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-14.mca
+[00:23:33] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.3.mca
+[00:23:33] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.15.mca
+[00:23:33] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-7.mca
+[00:23:34] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-2.mca
+[00:23:34] [main/INFO]: [bclib] Patcher Stage... Saving Patch State%
+[00:23:34] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[00:23:34] [main/ERROR]: Pack for WWOO LOL is null
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:jade_cave
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:megalake_grove
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:neon_oasis
+[00:23:34] [main/INFO]: [bclib] Did not manage biome betterend:painted_mountains
+[00:23:35] [main/INFO]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (75b96728)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:35] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:23:35] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:23:35] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (6b89cb96)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (1f1a5d70)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:35] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:23:35] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:23:35] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (231b02d)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4a05f0c1)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:35] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:23:35] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:23:35] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (78fc2b6b)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7e88af42)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:35] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:23:35] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:23:35] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:23:35] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (3aca1f86)
+[00:23:35] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:36] [main/WARN]: [bclib] No valid BCLBiome Registry available!
+[00:23:36] [main/WARN]: [bclib] No valid Biome Registry available!
+[00:23:36] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2188b11a)
+[00:23:36] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:36] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (5e6ca682)
+[00:23:36] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:23:36] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:23:36] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:23:36] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:23:37] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:raft/nature/melon - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
+[00:23:37] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:island/nature/wheat - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
+[00:23:38] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:raft/nature/wheat - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
+[00:23:38] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:u_sea:island/nature/melon - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:grass
+[00:23:38] [main/INFO]: [bclib] Disabling Recipe: bclib:test_star
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_cherry_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -294,7 +925,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_jungle_door
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_jungle_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_jungle_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_jungle_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_jungle_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -312,7 +943,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_bamboo_door_sawmill
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_bamboo_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -330,7 +961,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_spruce_door_sawmill
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_spruce_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -348,7 +979,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_mangrove_door_sawmill
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_mangrove_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -366,7 +997,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_birch_door_sawmill
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_birch_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -384,7 +1015,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_birch_door
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_birch_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_birch_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_birch_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_birch_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -402,7 +1033,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_jungle_door_sawmill
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_jungle_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -420,7 +1051,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_acacia_door
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_acacia_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_acacia_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_acacia_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_acacia_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -438,7 +1069,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_crimson_door
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_crimson_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_crimson_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_crimson_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_crimson_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -456,7 +1087,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_sliding_warped_door
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_sliding_warped_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:sliding_warped_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:sliding_warped_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:sliding_warped_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -474,7 +1105,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_acacia_door_sawmill
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_acacia_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -492,7 +1123,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_screen_mangrove_door
+[00:23:38] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_screen_mangrove_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:screen_mangrove_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:screen_mangrove_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:screen_mangrove_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -510,7 +1141,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_warped_door_sawmill
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_warped_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -528,7 +1159,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_shack_mangrove_door
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_shack_mangrove_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:shack_mangrove_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:shack_mangrove_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:shack_mangrove_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -546,7 +1177,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_oak_door_sawmill
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_oak_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -564,7 +1195,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_crimson_door_sawmill
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_crimson_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -582,7 +1213,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_tiled_mangrove_door
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_tiled_mangrove_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:tiled_mangrove_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:tiled_mangrove_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:tiled_mangrove_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -600,7 +1231,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_dark_oak_door_sawmill
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:short_dark_oak_door_sawmill
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: woodworks:sawmill
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -618,7 +1249,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_spruce_door
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_spruce_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_spruce_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_spruce_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_spruce_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -636,7 +1267,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_warped_door
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_warped_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_warped_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_warped_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_warped_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -654,7 +1285,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_mangrove_door
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_mangrove_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_mangrove_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_mangrove_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_mangrove_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -672,7 +1303,7 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_dark_oak_door
+[00:23:39] [main/ERROR]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_dark_oak_door
 com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item":"chipped:classic_windowed_dark_oak_door"}]; Item must not be minecraft:air; Not a json array: {"item":"chipped:classic_windowed_dark_oak_door"}; Input does not contain a key [fabric:type]: MapLike[{"item":"chipped:classic_windowed_dark_oak_door"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -690,44 +1321,200 @@ com.google.gson.JsonParseException: Map entry '#' : No key tag in MapLike[{"item
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[02:57:31] [main/INFO]: Loaded 8 recipes
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_warped_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_warped_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_warped_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_sliding_warped_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:sliding_warped_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:sliding_warped_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_screen_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:screen_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:screen_mangrove_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_tiled_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:tiled_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:tiled_mangrove_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_spruce_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_spruce_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_spruce_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_dark_oak_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_dark_oak_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_dark_oak_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_jungle_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_jungle_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_jungle_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_mangrove_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_acacia_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_acacia_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_acacia_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_birch_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_birch_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_birch_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement totw_modded:root: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: waystones:mossy_waystone
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_shack_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:shack_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:shack_mangrove_door"]}]}}}
-[02:57:31] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_crimson_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_crimson_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_crimson_door"]}]}}}
-[02:57:32] [main/ERROR]: Couldn't load advancements: [totw_modded:regular_tower, totw_modded:derelict_grass_tower, totw_modded:derelict_tower, totw_modded:ice_tower, totw_modded:jungle_tower]
-[02:57:32] [main/INFO]: Loaded 3912 advancements
-[02:57:37] [main/INFO]: Applied 506 biome modifications to 64 of 64 new biomes in 28.56 ms
-[02:57:37] [Server thread/INFO]: Loading server config for barteringstation
-[02:57:37] [Thread-2/INFO]: Reloading server config for barteringstation
-[02:57:37] [Server thread/INFO]: Loading server config for hangglider
-[02:57:37] [Thread-2/INFO]: Reloading server config for hangglider
-[02:57:37] [Server thread/INFO]: Loading server config for iteminteractions
-[02:57:37] [Thread-2/INFO]: Reloading server config for hangglider
-[02:57:37] [Thread-2/INFO]: Reloading server config for iteminteractions
-[02:57:37] [Thread-2/INFO]: Reloading server config for iteminteractions
-[02:57:38] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[02:57:38] [Server thread/INFO]: Loading properties
-[02:57:38] [Server thread/INFO]: Default game type: SURVIVAL
-[02:57:38] [Server thread/INFO]: Generating keypair
-[02:57:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:57:38] [Server thread/INFO]: Using epoll channel type
-[02:57:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:57:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:57:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:57:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:57:38] [Server thread/INFO]: Preparing level "world"
-[02:57:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:57:45] [Server thread/ERROR]: Couldn't load structure mss:diorite_house
+[00:23:39] [main/INFO]: Generating Sawmill Recipes
+[00:23:39] [main/INFO]: Generated Sawmill recipes in 185 milliseconds
+[00:23:39] [main/INFO]: Loaded 14 recipes
+[00:23:39] [main/ERROR]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: command.unknown.command at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: command.unknown.command at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:76) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:23:39] [main/ERROR]: Failed to load function techno.shared:load
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: argument.component.invalid at position 1980: ...}}]},"\n"]<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: argument.component.invalid at position 1980: ...}}]},"\n"]<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:76) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:23:39] [main/ERROR]: Failed to load function techno.shared:gui/main_menu
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: argument.component.invalid at position 1980: ...}}]},"\n"]<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: argument.component.invalid at position 1980: ...}}]},"\n"]<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:76) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_warped_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_warped_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_warped_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_sliding_warped_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:sliding_warped_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:sliding_warped_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_screen_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:screen_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:screen_mangrove_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_tiled_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:tiled_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:tiled_mangrove_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_spruce_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_spruce_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_spruce_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_dark_oak_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_dark_oak_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_dark_oak_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_jungle_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_jungle_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_jungle_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_mangrove_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_acacia_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_acacia_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_acacia_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_birch_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_birch_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_birch_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_shack_mangrove_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:shack_mangrove_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:shack_mangrove_door"]}]}}}
+[00:23:39] [main/ERROR]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_crimson_door: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: chipped:classic_windowed_crimson_door missed input: {"has_items":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["chipped:classic_windowed_crimson_door"]}]}}}
+[00:23:40] [main/ERROR]: Couldn't load advancements: [hopo:minecraft/adventure/locate_portal_ruined]
+[00:23:40] [main/INFO]: Loaded 5330 advancements
+[00:23:40] [main/INFO]: Applied 12 data villager trades
+[00:23:46] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///workspaces/MineBad1.5.4/servidor_minecraft/mods/dungeons+-1.8.4b.jar
+[00:23:46] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///workspaces/MineBad1.5.4/servidor_minecraft/mods/travelersbackpack-fabric-1.20.4-9.4.6.jar
+[00:23:46] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///workspaces/MineBad1.5.4/servidor_minecraft/mods/totw_modded-fabric-1.20.1-1.0.6.jar
+[00:23:46] [main/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_end.
+[00:23:46] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7e88af42)
+[00:23:46] [main/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[00:23:46] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (3aca1f86)
+[00:23:46] [main/INFO]: [worlds_together] Loading originally configured Dimensions in World.
+[00:23:46] [main/INFO]: Applied 909 biome modifications to 104 of 104 new biomes in 35.32 ms
+[00:23:47] [Server thread/INFO]: Loading server config for barteringstation
+[00:23:47] [Thread-2/INFO]: Reloading server config for barteringstation
+[00:23:47] [Server thread/INFO]: Loading server config for bettertridents
+[00:23:47] [Thread-2/INFO]: Reloading server config for bettertridents
+[00:23:47] [Server thread/INFO]: Loading server config for easyanvils
+[00:23:47] [Thread-2/INFO]: Reloading server config for easyanvils
+[00:23:47] [Server thread/INFO]: Loading server config for easymagic
+[00:23:47] [Thread-2/INFO]: Reloading server config for easyanvils
+[00:23:47] [Thread-2/INFO]: Reloading server config for easymagic
+[00:23:47] [Thread-2/INFO]: Reloading server config for easymagic
+[00:23:47] [Server thread/INFO]: Loading server config for hangglider
+[00:23:47] [Thread-2/INFO]: Reloading server config for hangglider
+[00:23:47] [Server thread/INFO]: Loading server config for iteminteractions
+[00:23:47] [Thread-2/INFO]: Reloading server config for hangglider
+[00:23:47] [Server thread/INFO]: Initialising config for DistantHorizons
+[00:23:47] [Server thread/INFO]: Config for DistantHorizons initialised
+[00:23:47] [Server thread/INFO]: Post-Initializing Mod
+[00:23:47] [Server thread/INFO]: Mod Post-Initialized
+[00:23:47] [Server thread/INFO]: Checking for Distant Horizons update
+[00:23:47] [Server thread/INFO]: Distant Horizons already up to date.
+[00:23:47] [Server thread/INFO]: Dedicated server initialized at .
+[00:23:47] [Server thread/INFO]: Injecting Carpenter Village Houses
+[00:23:47] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[00:23:47] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[00:23:47] [Server thread/INFO]: Loading properties
+[00:23:47] [Server thread/INFO]: Default game type: SURVIVAL
+[00:23:47] [Server thread/INFO]: Generating keypair
+[00:23:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:23:47] [Server thread/INFO]: Using epoll channel type
+[00:23:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:23:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:23:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:23:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:23:47] [Server thread/INFO]: Preparing level "world"
+[00:23:47] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (7e88af42)
+        biomes     = 27
+        namespaces = betterend(19), minecraft(5), nullscape(3)
+        seed       = 0
+        height     = 288
+        deciders   = 0
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[00:23:47] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (3aca1f86)
+        biomes     = 13
+        namespaces = minecraft(5), incendium(8)
+        seed       = 0
+        height     = 192
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[00:23:47] [Server thread/INFO]: [bclib] 
+Apply Modifications for deeperdarker:otherside
+    class_4766 (48346143)
+        biomes     = 4
+        namespaces = deeperdarker(4)
+[00:23:47] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (4677d788)
+        biomes     = 53
+        namespaces = minecraft(53)
+[00:23:47] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (7bce0bb) 
+     BCLib - The End  BiomeSource (7e88af42)
+         biomes     = 27
+         namespaces = betterend(19), minecraft(5), nullscape(3)
+         seed       = 0
+         height     = 288
+         deciders   = 0
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (18fc2fbc) 
+     BCLib - Nether BiomeSource (3aca1f86)
+         biomes     = 13
+         namespaces = minecraft(5), incendium(8)
+         seed       = 0
+         height     = 192
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - deeperdarker:otherside: 
+     net.minecraft.class_3754@6a4faf5f 
+     class_4766 (48346143)
+         biomes     = 4
+         namespaces = deeperdarker(4)
+ - minecraft:overworld: 
+     net.minecraft.class_3754@3b07664c 
+     class_4766 (4677d788)
+         biomes     = 53
+         namespaces = minecraft(53)
+[00:23:47] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (7e88af42)
+    biomes     = 27
+    namespaces = betterend(19), minecraft(5), nullscape(3)
+    seed       = 0
+    height     = 288
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 22
+[00:23:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[00:23:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[00:23:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:23:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[00:23:50] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
+[00:23:50] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[00:23:50] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
+[00:23:50] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:23:52] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data)]].
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:23:52] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data;./world/DIM-1/data)]].
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [deeperdarker:otherside]-[./world/dimensions/deeperdarker/otherside/data]...
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[00:23:52] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:23:52] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@deeperdarker:otherside}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data;./world/dimensions/deeperdarker/otherside/data;./world/DIM-1/data)]].
+[00:23:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:23:57] [Server thread/ERROR]: Couldn't load structure mss:diorite_house
 net.minecraft.class_8911: Loading NBT data
 	at net.minecraft.class_2487.method_10581(class_2487.java:526) ~[server-intermediary.jar:?]
 	at net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
@@ -783,198 +1570,48 @@ Caused by: java.io.IOException: Invalid tag id: 26
 	at net.minecraft.class_4614$1.method_23262(class_4614.java:56) ~[server-intermediary.jar:?]
 	at net.minecraft.class_2487.method_10581(class_2487.java:520) ~[server-intermediary.jar:?]
 	... 47 more
-[02:57:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:57:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[02:57:47] [Worker-Main-2/INFO]: Preparing spawn area: 61%
-[02:57:47] [Server thread/INFO]: Time elapsed: 6219 ms
-[02:57:47] [Server thread/INFO]: Done (9.067s)! For help, type "help"
-[02:57:47] [Server thread/INFO]: Start loading plugin from Jade
-[02:57:47] [Server thread/INFO]: Start loading plugin from Jade
-[02:57:47] [Server thread/INFO]: Start loading plugin from Jade
-[02:57:47] [Server thread/INFO]: Start loading plugin from Jade
-[02:57:47] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[02:57:47] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[03:01:07] [Server thread/INFO]: SimonPro74[/100.90.218.55:54076] logged in with entity id 154 at (1539.5, -15.0, -7782.5)
-[03:01:07] [Server thread/INFO]: Loading config from file...
-[03:01:07] [Server thread/INFO]: SimonPro74 joined the game
-[03:01:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2588ms or 51 ticks behind
-[03:01:24] [Server thread/INFO]: badbalta[/100.85.90.122:60034] logged in with entity id 456 at (475.74689952063517, 65.9375, -8747.447902384281)
-[03:01:24] [Server thread/INFO]: Loading config from file...
-[03:01:24] [Server thread/INFO]: badbalta joined the game
-[03:01:33] [Server thread/INFO]: [badbalta: Teleported SimonPro74 to 738.500000, 100.000000, -8289.500000]
-[03:04:39] [Server thread/INFO]: badbalta lost connection: Timed out
-[03:04:39] [Server thread/INFO]: badbalta left the game
-[03:04:39] [Server thread/WARN]: handleDisconnection() called twice
-[03:05:04] [Server thread/INFO]: badbalta[/100.85.90.122:60048] logged in with entity id 2484 at (467.14244910085444, 66.0, -8736.649508918614)
-[03:05:04] [Server thread/INFO]: Loading config from file...
-[03:05:04] [Server thread/INFO]: badbalta joined the game
-[03:13:21] [Server thread/INFO]: SimonPro74 tried to swim in lava
-[03:13:36] [Server thread/INFO]: [badbalta: Teleported SimonPro74 to 738.500000, 100.000000, -8289.500000]
-[03:14:33] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
-[03:14:33] [Server thread/INFO]: SimonPro74 left the game
-[03:14:41] [Server thread/INFO]: SimonPro74[/100.90.218.55:54171] logged in with entity id 8467 at (740.3880839090081, 95.0, -8288.8535653718)
-[03:14:41] [Server thread/INFO]: Loading config from file...
-[03:14:41] [Server thread/INFO]: SimonPro74 joined the game
-[03:21:29] [Server thread/INFO]: SimonPro74 has made the advancement [Sneak 100]
-[03:28:58] [Server thread/INFO]: SimonPro74 was shot by Skeleton
-[03:31:17] [Server thread/WARN]: UUID of added entity already exists: class_1430['Cow'/17163, l='ServerLevel[world]', x=768.01, y=78.00, z=-8841.28]
-[03:49:06] [Server thread/INFO]: SimonPro74 tried to swim in lava
-[03:50:52] [Server thread/INFO]: SimonPro74 burned to death
-[03:52:11] [Server thread/INFO]: SimonPro74 was burned to a crisp while fighting Ghast
-[03:52:44] [Server thread/INFO]: SimonPro74 tried to swim in lava
-[03:58:59] [Server thread/INFO]: SimonPro74 drowned
-[04:02:51] [Server thread/INFO]: badbalta has made the advancement [A Seedy Place]
-[04:13:09] [Server thread/INFO]: badbalta has made the advancement [Voluntary Exile]
-[04:13:48] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=202, y=-11, z=-113}
-[04:13:48] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=204, y=-11, z=-110}
-[04:14:16] [Server thread/INFO]: Villager class_1646['Fisherman'/38974, l='ServerLevel[world]', x=160.08, y=-65.00, z=-9137.78] died, message: 'Fisherman was killed'
-[04:14:18] [Server thread/INFO]: Villager class_1646['Librarian'/39056, l='ServerLevel[world]', x=159.98, y=-65.00, z=-9138.54] died, message: 'Librarian was killed'
-[04:14:24] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=-179, y=191, z=150}
-[04:14:24] [Worker-Main-6/WARN]: Unable to load item from: {count:1,id:"minecraft:enchanted_golden_apple"}
-[04:14:24] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=-179, y=190, z=150}
-[04:14:24] [Worker-Main-6/WARN]: Unable to load item from: {count:1,id:"minecraft:diamond"}
-[04:14:24] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[04:14:24] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[04:14:24] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[04:14:24] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[04:14:27] [Worker-Main-5/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
-[04:14:36] [Server thread/INFO]: Villager class_1646['Fisherman'/39341, l='ServerLevel[world]', x=89.73, y=-65.00, z=-9393.27] died, message: 'Fisherman was killed'
-[04:14:36] [Server thread/INFO]: Villager class_1646['Toolsmith'/39345, l='ServerLevel[world]', x=92.84, y=-65.00, z=-9398.59] died, message: 'Toolsmith was killed'
-[04:14:36] [Server thread/INFO]: Villager class_1646['Shepherd'/39346, l='ServerLevel[world]', x=94.50, y=-65.00, z=-9400.30] died, message: 'Shepherd was killed'
-[04:14:36] [Server thread/INFO]: Villager class_1646['Librarian'/39347, l='ServerLevel[world]', x=91.54, y=-65.00, z=-9398.76] died, message: 'Librarian was killed'
-[04:14:45] [Server thread/INFO]: Villager class_1646['Fisherman'/39425, l='ServerLevel[world]', x=68.01, y=-65.00, z=-9396.07] died, message: 'Fisherman was killed'
-[04:15:01] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=44, y=-57, z=10}
-[04:15:01] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=44, y=-58, z=8}
-[04:15:01] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=44, y=-58, z=9}
-[04:15:01] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=47, y=-58, z=2}
-[04:15:01] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=45, y=-57, z=2}
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:15:01] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=48, y=-59, z=7}
-[04:15:01] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=48, y=-57, z=8}
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:15:01] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:15:08] [Server thread/INFO]: Villager class_1646['Farmer'/39649, l='ServerLevel[world]', x=18.50, y=-65.00, z=-9396.70] died, message: 'Farmer was killed'
-[04:15:11] [Server thread/INFO]: Villager class_1646['Farmer'/39691, l='ServerLevel[world]', x=7.64, y=-65.00, z=-9397.22] died, message: 'Farmer was killed'
-[04:15:11] [Server thread/INFO]: Villager class_1646['Farmer'/39692, l='ServerLevel[world]', x=7.57, y=-65.00, z=-9396.29] died, message: 'Farmer was killed'
-[04:15:11] [Server thread/INFO]: Villager class_1646['Farmer'/39693, l='ServerLevel[world]', x=14.70, y=-65.00, z=-9392.51] died, message: 'Farmer was killed'
-[04:15:11] [Server thread/INFO]: Villager class_1646['Farmer'/39694, l='ServerLevel[world]', x=14.30, y=-65.00, z=-9392.51] died, message: 'Farmer was killed'
-[04:18:55] [Server thread/INFO]: Villager class_1646['Unemployed'/38973, l='ServerLevel[world]', x=156.00, y=67.00, z=-9115.30] died, message: 'Unemployed hit the ground too hard'
-[04:19:06] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=247, y=-11, z=-115}
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:47] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:49] [Server thread/INFO]: Villager class_1646['Farmer'/42338, l='ServerLevel[world]', x=-310.64, y=-65.00, z=-9323.78] died, message: 'Farmer was killed'
-[04:20:49] [Server thread/INFO]: Villager class_1646['Farmer'/42339, l='ServerLevel[world]', x=-310.57, y=-65.00, z=-9324.71] died, message: 'Farmer was killed'
-[04:20:49] [Server thread/INFO]: Villager class_1646['Farmer'/42340, l='ServerLevel[world]', x=-317.70, y=-65.00, z=-9328.49] died, message: 'Farmer was killed'
-[04:20:49] [Server thread/INFO]: Villager class_1646['Farmer'/42341, l='ServerLevel[world]', x=-317.30, y=-65.00, z=-9328.49] died, message: 'Farmer was killed'
-[04:20:50] [Server thread/INFO]: Villager class_1646['Farmer'/42402, l='ServerLevel[world]', x=-321.50, y=-65.00, z=-9324.30] died, message: 'Farmer was killed'
-[04:20:50] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=-19, y=-59, z=8}
-[04:20:50] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:50] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:50] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:50] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:50] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:20:50] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:50] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=-12, y=-59, z=12}
-[04:20:51] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Armorer'/42459, l='ServerLevel[world]', x=-340.75, y=-65.00, z=-9369.72] died, message: 'Armorer was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Cartographer'/42474, l='ServerLevel[world]', x=-345.30, y=-65.00, z=-9322.43] died, message: 'Cartographer was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Fletcher'/42475, l='ServerLevel[world]', x=-338.63, y=-65.00, z=-9322.24] died, message: 'Fletcher was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Fletcher'/42476, l='ServerLevel[world]', x=-338.16, y=-65.00, z=-9320.29] died, message: 'Fletcher was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Leatherworker'/42477, l='ServerLevel[world]', x=-345.30, y=-65.00, z=-9323.52] died, message: 'Leatherworker was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Cartographer'/42479, l='ServerLevel[world]', x=-344.61, y=-65.00, z=-9323.03] died, message: 'Cartographer was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Farmer'/42480, l='ServerLevel[world]', x=-341.22, y=-65.00, z=-9292.64] died, message: 'Farmer was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Farmer'/42481, l='ServerLevel[world]', x=-340.29, y=-65.00, z=-9292.57] died, message: 'Farmer was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Farmer'/42482, l='ServerLevel[world]', x=-340.70, y=-65.00, z=-9303.50] died, message: 'Farmer was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Farmer'/42483, l='ServerLevel[world]', x=-336.51, y=-65.00, z=-9299.70] died, message: 'Farmer was killed'
-[04:20:52] [Server thread/INFO]: Villager class_1646['Farmer'/42484, l='ServerLevel[world]', x=-336.51, y=-65.00, z=-9299.30] died, message: 'Farmer was killed'
-[04:20:53] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=27, y=-58, z=9}
-[04:20:53] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=27, y=-57, z=8}
-[04:20:53] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=33, y=-58, z=6}
-[04:20:53] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=33, y=-57, z=4}
-[04:20:57] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:21:49] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=44, y=-57, z=10}
-[04:21:49] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=44, y=-58, z=8}
-[04:21:49] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=44, y=-58, z=9}
-[04:21:49] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=47, y=-58, z=2}
-[04:21:49] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=45, y=-57, z=2}
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:21:49] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=48, y=-59, z=7}
-[04:21:49] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=48, y=-57, z=8}
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:21:49] [Worker-Main-5/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:23:15] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[04:23:15] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[04:33:53] [Server thread/INFO]: SimonPro74 was slain by Vindicator
-[04:34:00] [Server thread/INFO]: [badbalta: Teleported SimonPro74 to 738.500000, 100.000000, -8289.500000]
-[04:34:42] [Server thread/INFO]: SimonPro74 was slain by Iron Golem
-[04:37:05] [Server thread/INFO]: SimonPro74 was slain by Vindicator
-[04:37:34] [Server thread/INFO]: badbalta has completed the challenge [Hero of the Village]
-[04:37:34] [Server thread/INFO]: SimonPro74 has completed the challenge [Hero of the Village]
-[04:45:56] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
-[04:45:56] [Server thread/INFO]: SimonPro74 left the game
-[04:46:06] [Server thread/INFO]: SimonPro74[/100.90.218.55:54380] logged in with entity id 58688 at (744.2560341297253, 104.0, -8283.428287061557)
-[04:46:06] [Server thread/INFO]: Loading config from file...
-[04:46:07] [Server thread/INFO]: SimonPro74 joined the game
-[04:59:54] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
-[04:59:54] [Server thread/INFO]: SimonPro74 left the game
-[05:00:00] [Server thread/INFO]: SimonPro74[/100.90.218.55:54395] logged in with entity id 68991 at (735.6075234891919, 104.5, -8285.672626210084)
-[05:00:00] [Server thread/INFO]: Loading config from file...
-[05:00:00] [Server thread/INFO]: SimonPro74 joined the game
-[05:05:54] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
-[05:05:54] [Server thread/INFO]: SimonPro74 left the game
-[05:06:04] [Server thread/INFO]: SimonPro74[/100.90.218.55:54412] logged in with entity id 71285 at (731.3739913108716, 107.0, -8291.115509804964)
-[05:06:04] [Server thread/INFO]: Loading config from file...
-[05:06:04] [Server thread/INFO]: SimonPro74 joined the game
-[05:09:01] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
-[05:09:01] [Server thread/INFO]: SimonPro74 left the game
-[05:18:56] [Server thread/INFO]: SimonPro74[/100.90.218.55:54442] logged in with entity id 73522 at (740.8487940722897, 100.0, -8293.169720905955)
-[05:18:56] [Server thread/INFO]: Loading config from file...
-[05:18:56] [Server thread/INFO]: SimonPro74 joined the game
-[05:21:13] [Server thread/INFO]: SimonPro74 lost connection: Disconnected
-[05:21:13] [Server thread/INFO]: SimonPro74 left the game
-[05:21:25] [Server thread/INFO]: badbalta lost connection: Disconnected
-[05:21:25] [Server thread/INFO]: badbalta left the game
-[05:21:46] [Server thread/INFO]: Stopping the server
-[05:21:46] [Server thread/INFO]: Stopping server
-[05:21:46] [Server thread/INFO]: Saving players
-[05:21:46] [Server thread/INFO]: Saving worlds
-[05:21:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:21:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05:21:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:21:46] [Server thread/INFO]: Unloading server config for barteringstation
-[05:21:46] [Server thread/INFO]: Unloading server config for hangglider
-[05:21:46] [Server thread/INFO]: Unloading server config for iteminteractions
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-1/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-3/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-3/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-1/INFO]: menu.preparingSpawn
+[00:23:58] [Worker-Main-2/INFO]: menu.preparingSpawn
+[00:23:59] [Worker-Main-3/INFO]: menu.preparingSpawn
+[00:23:59] [Server thread/INFO]: Time elapsed: 7031 ms
+[00:23:59] [Server thread/INFO]: Done (11.635s)! For help, type "help"
+[00:23:59] [Server thread/INFO]: Start loading plugin from Jade
+[00:23:59] [Server thread/INFO]: Start loading plugin from Jade
+[00:23:59] [Server thread/INFO]: Start loading plugin from Jade
+[00:23:59] [Server thread/INFO]: Start loading plugin from Jade
+[00:23:59] [Server thread/INFO]: Start loading plugin from Waystones
+[00:23:59] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[00:23:59] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[00:23:59] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[00:23:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[00:23:59] [Server thread/INFO]: Batch Chunk Generator initialized
+[00:23:59] [Server thread/INFO]: Creating world gen queue
+[00:23:59] [Server thread/INFO]: Created world gen queue
+[00:23:59] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[00:23:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[00:23:59] [Server thread/INFO]: Batch Chunk Generator initialized
+[00:23:59] [Server thread/INFO]: Creating world gen queue
+[00:23:59] [Server thread/INFO]: Created world gen queue
+[00:23:59] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[00:23:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[00:23:59] [Server thread/INFO]: Batch Chunk Generator initialized
+[00:23:59] [Server thread/INFO]: Creating world gen queue
+[00:23:59] [Server thread/INFO]: Created world gen queue
+[00:23:59] [Server thread/INFO]: Set world gen queue for level [deeperdarker:otherside].
+[00:23:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[00:23:59] [Server thread/INFO]: Batch Chunk Generator initialized
+[00:23:59] [Server thread/INFO]: Creating world gen queue
+[00:23:59] [Server thread/INFO]: Created world gen queue
+[00:23:59] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
